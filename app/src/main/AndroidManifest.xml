@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.mrbean355.android.hilt">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -24,27 +23,35 @@
         </activity>
         <activity
             android:name=".basics.BasicsActivity"
+            android:exported="false"
             android:label="@string/title_basics" />
         <activity
             android:name=".components.ComponentsActivity"
+            android:exported="false"
             android:label="@string/title_components" />
         <activity
             android:name=".qualifiers.QualifiersActivity"
+            android:exported="false"
             android:label="@string/title_qualifiers" />
         <activity
             android:name=".scopes.ScopesActivity"
+            android:exported="false"
             android:label="@string/title_scopes" />
         <activity
             android:name=".lazy.LazyActivity"
+            android:exported="false"
             android:label="@string/title_lazy_bindings" />
         <activity
             android:name=".nullable.NullableBindingsActivity"
+            android:exported="false"
             android:label="@string/title_nullable_bindings" />
         <activity
             android:name=".optional.OptionalBindingsActivity"
+            android:exported="false"
             android:label="@string/title_optional_bindings" />
         <activity
             android:name=".multibindings.MultiBindingsActivity"
+            android:exported="false"
             android:label="@string/title_multi_bindings" />
     </application>
 
